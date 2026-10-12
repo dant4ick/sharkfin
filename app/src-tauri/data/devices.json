@@ -5458,6 +5458,31 @@
     "screen": null
   },
   {
+    "id": 1798,
+    "name": "akko_mu01_uk",
+    "displayName": "MU01",
+    "company": "akko",
+    "vendor": "akko",
+    "vendorId": 12625,
+    "productId": 16405,
+    "internalName": "akko_mu01_uk",
+    "keyLayout": "Common69_MU01UK",
+    "lightLayout": "K",
+    "sideLightLayout": "",
+    "profiles": 4,
+    "magnetic": false,
+    "family": "yc500",
+    "features": {
+      "knob": [],
+      "debounce": true,
+      "sleep24": true,
+      "sleepBT": true,
+      "magneticSwitches": false,
+      "screen": false,
+      "sideLight": false
+    }
+  },
+  {
     "id": 1812,
     "name": "yc3121_mk906_soc",
     "displayName": "3MRGB-207",
