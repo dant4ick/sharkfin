@@ -376,18 +376,13 @@ export const setSwitchTrial = (slot: number | null): Promise<void> =>
 // its vendor page. Which interface carries it differs by board, so every
 // granted collection of the board on that page is listened to.
 let travelDevices: HIDDevice[] = [];
-// A held key is reported on every scan pass, and the board keeps one
-// report, so with several keys down the reports overwrite one another and
-// a release 0 is often lost. A slot quiet this long is up.
-const TRAVEL_STALE_MS = 200;
+// A key held still sends nothing, so a slot keeps its last count until the
+// board reports it again.
 const travelLatest = new Uint16Array(128);
-const travelSeen = new Float64Array(128);
 const onTravelReport = (e: HIDInputReportEvent) => {
   const d = e.data;
   if (e.reportId !== 5 || d.byteLength < 4 || d.getUint8(0) !== 0x1b) return;
-  const slot = d.getUint8(3);
-  travelLatest[slot] = d.getUint16(1, true);
-  travelSeen[slot] = performance.now();
+  travelLatest[d.getUint8(3)] = d.getUint16(1, true);
 };
 export const travelStream = async (on: boolean): Promise<void> => {
   await ensure();
@@ -416,10 +411,7 @@ export const travelStream = async (on: boolean): Promise<void> => {
   }
   await core.travel_stream(true);
 };
-export const travelRead = async (): Promise<number[]> => {
-  const now = performance.now();
-  return Array.from(travelLatest, (c, i) => (now - travelSeen[i] > TRAVEL_STALE_MS ? 0 : c));
-};
+export const travelRead = async (): Promise<number[]> => Array.from(travelLatest);
 
 export const getSwitches = (): Promise<SwitchSettings> =>
   withCore(async () => JSON.parse((await core.get_switches()) as string) as SwitchSettings);

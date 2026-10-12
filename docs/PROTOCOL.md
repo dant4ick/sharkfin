@@ -649,7 +649,9 @@ While the flag is set, the key scan (2268 `0x800cf96`, 2116 `0x800d56e`,
 3708 `0x800eb92` and `0x800f37e`) reports every key past a fixed threshold
 on every pass, and once more with travel 0 when the key drops below it.
 The threshold is 15 counts on 2268 and 2116, 20 on 3708. Actuation,
-release and rapid trigger play no part.
+release and rapid trigger play no part. On hardware a key held still
+sends nothing (below), so the pass also skips an unchanged count; that
+compare was not traced.
 
 | offset | |
 |---|---|
@@ -664,15 +666,20 @@ so the stream is cable only. On the wire it is an input report on the
 `0xFFFF:1` collection (Transport, Akko 3098B row) **[HW]**.
 
 The sender holds one report: it stores the five bytes and sets a pending
-bit, with no queue. Keys past the threshold in the same pass overwrite
-each other, and a release 0 can be overwritten before the endpoint takes
-it. On the TK75HE-V2, release reports go missing from six or seven keys
-held together even with the host's input queue raised to 512, and from
-twenty or more however deep the queue **[HW]**. sharkfin reads a slot
-quiet for 200 ms as released.
+bit, with no queue. On the TK75HE-V2 the board streams at most 1000 to
+2000 reports a second. Up to five keys held together lose nothing. From
+six, the host's input queue overflows at its default depth of 32 reports,
+and a queue of 512 catches every burst at a 50 ms poll; a USB capture
+shows the reports left the board. From about twenty keys the board itself
+drops reports, and a key's final travel can go unreported **[HW]**. hidapi
+asks Windows for 64 reports and hidraw holds 64; sharkfin reads each
+collection on its own thread and keeps a slot's last count until the
+board reports it again. A slot that goes quiet is a key held still, not a
+release: nothing is sent while travel is unchanged, at the bottom or
+anywhere else **[HW]**.
 
 GamaKay TK75HE-V2 (device 3833, `3151:5030`, issue #67) **[HW]**: a burst
-while a key moves, a slower repeat while it is held, 0 on release, keys
+while a key moves, nothing while it is held still, 0 on release, keys
 pressed together interleaved. Full travel is about 810 counts on that
 board: half-hundredths, the scale of its firmware. The counts are the
 scan's calibrated reading and pass through no other filter. 810 counts is
