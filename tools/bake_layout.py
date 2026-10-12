@@ -149,7 +149,7 @@ def main():
     sharers = [
         d.get("displayName") or d["name"]
         for d in json.loads(registry.read_text(encoding="utf-8"))
-        if d.get("keyLayout") == name
+        if d.get("keyLayout") == target
     ]
 
     path.write_text(dump_layout(layout), encoding="utf-8")
