@@ -8492,5 +8492,43 @@
       "screen": false,
       "sideLight": false
     }
+  },
+  {
+    "_why": "Reported in issue #71. The 5098B in the registry (1923) is another id; this one is not in gearhub, Akko's own tables or the OTA channel. The board's product string is 'Akko Multi-modes Keyboard'; the owner names it the German 5098B, and its keymap carries the ISO key.",
+    "_evidence": "Read sweep from the owner's board (0.9.5, 30d6b7e, browser). identify 0x8F returns 0x08ce = 2254. GET_KEYMATRIX 0x89 returns a raw yc500 keymap reading Esc, grave, Tab, CapsLock, LShift, LCtrl down column 0 with IntlBackslash 0x64 in column 2; the gen2 read 0x8A returns all 0xFF; the yc500 sleep read 0x92 answers four u16 (300, 300, 1500, 1500) at bytes 1..8 and auto-OS 0x97 answers. Debounce 0x91 answers 1 at byte 2. That fixes the family as yc500, whose write paths are [HW] evidenced on an X86. Revision 0x80 answers 1.01. The keymap carries mute 0xE2, volume down 0xEA and volume up 0xE9 as consumer keys, so the knob list is the three names every volume knob is recorded with. OLED version 0xAD answers 3.1.1.1 on its own, where 0xAE echoes it, so a display is present; its panel copies the 5098B record (1923), 172 by 320 in mode 16.",
+    "_unknown": "No setup report and no layout bundle, so no write was tried on this board and keyLayout stays Unknown; Common95_ER95 fits the keymap 98 of 98 and the Keys page will offer it. Edge 0x88 answers but the owner has no edge light, so sideLight is off. The panel size is the vendor's for the 5098B, not read from this board. lightLayout copies 1923. No photo.",
+    "id": 2254,
+    "name": "akko_5098b_de",
+    "displayName": "5098B",
+    "company": "akko",
+    "vendor": "akko",
+    "vendorId": 12625,
+    "productId": 16405,
+    "internalName": "akko_5098b_de",
+    "keyLayout": "Unknown",
+    "lightLayout": "K",
+    "sideLightLayout": "",
+    "profiles": 4,
+    "magnetic": false,
+    "family": "yc500",
+    "screen": {
+      "w": 172,
+      "h": 320,
+      "mode": "16",
+      "layers": 5
+    },
+    "features": {
+      "knob": [
+        "AudioVolumeDown",
+        "AudioVolumeMute",
+        "AudioVolumeUp"
+      ],
+      "debounce": true,
+      "sleep24": true,
+      "sleepBT": true,
+      "magneticSwitches": false,
+      "screen": true,
+      "sideLight": false
+    }
   }
 ]

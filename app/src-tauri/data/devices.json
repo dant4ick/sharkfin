@@ -7073,6 +7073,41 @@
     }
   },
   {
+    "id": 2254,
+    "name": "akko_5098b_de",
+    "displayName": "5098B",
+    "company": "akko",
+    "vendor": "akko",
+    "vendorId": 12625,
+    "productId": 16405,
+    "internalName": "akko_5098b_de",
+    "keyLayout": "Unknown",
+    "lightLayout": "K",
+    "sideLightLayout": "",
+    "profiles": 4,
+    "magnetic": false,
+    "family": "yc500",
+    "screen": {
+      "w": 172,
+      "h": 320,
+      "mode": "16",
+      "layers": 5
+    },
+    "features": {
+      "knob": [
+        "AudioVolumeDown",
+        "AudioVolumeMute",
+        "AudioVolumeUp"
+      ],
+      "debounce": true,
+      "sleep24": true,
+      "sleepBT": true,
+      "magneticSwitches": false,
+      "screen": true,
+      "sideLight": false
+    }
+  },
+  {
     "id": 2255,
     "name": "ry5088_sg9005_rt004_dm_hall_8k",
     "displayName": "AK680 MAX",
