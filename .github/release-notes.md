@@ -1,5 +1,20 @@
 Beta. Back up from the Device tab before you rely on it.
 
+## What changed in 0.9.6
+
+**Three more boards.** Luminkey60 Pro, Akko MU01 UK and the German Akko
+5098B, from reports in issues #68, #69 and #71. The first two draw out of
+the box.
+
+**The live travel view no longer reads a quiet key as released.** 0.9.5
+did, and that was wrong: a key held still sends nothing, so it showed as
+up. A slot keeps its last count until the board reports it again. Set
+straight by the TK75HE-V2 owner in issue #67.
+
+**The Linux AppImage stops printing gvfs errors on launch.** The image
+carries its own glib and was loading the host's modules into it. Seen on
+Debian 13 in issue #2.
+
 ## What changed in 0.9.5
 
 **Keys no longer stick in the live travel view.** A board streaming travel
