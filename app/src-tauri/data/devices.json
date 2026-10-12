@@ -5588,6 +5588,31 @@
     }
   },
   {
+    "id": 1855,
+    "name": "luminkey60_pro",
+    "displayName": "Luminkey60 Pro",
+    "company": "Luminkey",
+    "vendor": "Luminkey",
+    "vendorId": 12625,
+    "productId": 16405,
+    "internalName": "luminkey60_pro",
+    "keyLayout": "Local61_Luminkey60_Pro",
+    "lightLayout": "",
+    "sideLightLayout": "xt",
+    "profiles": 4,
+    "magnetic": false,
+    "family": "yc500",
+    "features": {
+      "knob": [],
+      "debounce": true,
+      "sleep24": true,
+      "sleepBT": true,
+      "magneticSwitches": false,
+      "screen": false,
+      "sideLight": true
+    }
+  },
+  {
     "id": 1857,
     "name": "yc3121_cx31_soc",
     "displayName": "CX31",
