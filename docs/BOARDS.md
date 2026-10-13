@@ -13,9 +13,9 @@ blank is a plain grid of key slots. All three work the same.
 | | count |
 |---|---:|
 | total | 1389 |
-| writable | 1152 |
-| drawn | 358 |
-| drawn after confirmation | 821 |
+| writable | 1153 |
+| drawn | 359 |
+| drawn after confirmation | 820 |
 
 | board | id | usb | family | write | draw |
 |---|---|---|---|---|---|
@@ -201,7 +201,7 @@ blank is a plain grid of key slots. All three work the same.
 | akko MOD007S V3-HE US | 3321 | 3151:5029 | unknown |  | auto |
 | akko MOD07 V5 | 3034 | 3151:5002 | unknown |  |  |
 | akko MOD68 | 3162 | 3151:5030 | unknown |  | auto |
-| akko MOD68 | 3163 | 3151:5029 | unknown |  | auto |
+| akko MOD68 | 3163 | 3151:5029 | gen2 | yes | yes |
 | akko MOD68 | 3397 | 38ee:0001 | unknown |  | auto |
 | akko MOD68 HE | 3815 | 38ee:0001 | unknown |  | auto |
 | akko MOD68 HE | 3820 | 38ee:0001 | unknown |  | auto |

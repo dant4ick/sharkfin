@@ -775,6 +775,10 @@ mod tests {
                 "Local61_Luminkey60_Pro",
                 include_str!("../../src/lib/layouts/vendor/Local61_Luminkey60_Pro.json"),
             ),
+            (
+                "Local68_Akko_MOD68",
+                include_str!("../../src/lib/layouts/vendor/Local68_Akko_MOD68.json"),
+            ),
         ];
         for (name, text) in LOCAL {
             let v: serde_json::Value = serde_json::from_str(text).expect("parses");
