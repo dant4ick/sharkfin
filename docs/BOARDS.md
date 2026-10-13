@@ -14,7 +14,7 @@ blank is a plain grid of key slots. All three work the same.
 |---|---:|
 | total | 1389 |
 | writable | 1153 |
-| drawn | 359 |
+| drawn | 360 |
 | drawn after confirmation | 820 |
 
 | board | id | usb | family | write | draw |
@@ -1096,7 +1096,7 @@ blank is a plain grid of key slots. All three work the same.
 | ShadowApp ZEUS75 | 3118 | 3151:5002 | gen2 | yes | auto |
 | ShadowApp ZEUS75 PRO | 3620 | 3151:5002 | gen2 | yes | auto |
 | ShadowApp ZEUS87 | 3337 | 3151:4015 | yc500 | yes | yes |
-| Siukie ACH105W | 3488 | 3151:5041 | gen2 | yes |  |
+| Siukie ACH105W | 3488 | 3151:5041 | gen2 | yes | yes |
 | SK61HE | 3708 | 3151:5030 | gen2 | yes | yes |
 | skillMK231 Magnetic Keyboard | 3578 | 3151:5030 | gen2 | yes | auto |
 | skillMK231 Magnetic Keyboard | 3757 | 3151:5029 | gen2 | yes | auto |

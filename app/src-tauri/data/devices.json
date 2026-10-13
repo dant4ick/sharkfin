@@ -34601,20 +34601,23 @@
     "vendorId": 12625,
     "productId": 20545,
     "internalName": "siukie_ach105w",
-    "keyLayout": "Unknown",
-    "lightLayout": "",
-    "sideLightLayout": "",
+    "keyLayout": "Local105_Siukie_ACH105W",
+    "lightLayout": "K",
+    "sideLightLayout": "X",
     "profiles": 1,
     "magnetic": false,
     "family": "gen2",
     "features": {
-      "knob": [],
-      "debounce": false,
+      "knob": [
+        "AudioVolumeDown",
+        "AudioVolumeUp"
+      ],
+      "debounce": true,
       "sleep24": true,
       "sleepBT": true,
       "magneticSwitches": false,
       "screen": false,
-      "sideLight": false
+      "sideLight": true
     }
   },
   {

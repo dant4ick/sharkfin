@@ -3983,9 +3983,8 @@
     }
   },
   {
-    "_why": "Reported in issues #12 and #13 as not working, which is what an unrecognised board looks like: no registry entry, so sharkfin will not write to it. Not in any vendor catalogue.",
-    "_evidence": "Read sweep from the owner's board (0.2.3 web build). identify 0x8F returns 0x0DA0 = 3488. The replies carry gen2's framing, not yc500's: the keymap answers under 0x8A with an eight byte header and Escape at byte 8, while yc500's 0x89 returns a bare echo, and 0x91 gives four u16 sleep times where yc500's 0x92 answers nothing. ABKO's ACH105, id 3117, is the same model on the same USB ids and is also gen2.",
-    "_unknown": "keyLayout was not observable from a read sweep; Unknown makes the Keys page match a picture against the board and ask the owner to confirm it. The two ACH105 siblings in the registry use Common104_K108SMG, but that is the vendor's word about a different device id, not evidence about this one, so it is left to the match. Profile count was not observable either, so it is pinned to 1. Edge light 0x88 answers, but the flag tracks a layout name the sweep cannot give, so it stays false.",
+    "_why": "Reported in issues #12 and #13 as not working, which is what an unrecognised board looks like, and again in issue #74 with a read sweep, a layout bundle and photos. Not in any vendor catalogue. ABKO's ACH105 (3117, pan1086_chaorun_ach105_3m) is the same model on the same USB ids under another brand; the owner runs ABKO's own driver on it.",
+    "_evidence": "Read sweep from the owner's board (0.2.3 web build, then 0.9.5 30d6b7e on Windows). identify 0x8F returns 0x0da0 = 3488 in the gen2 shape with version 2.01 at bytes 7..8. GET_KEYMATRIX 0x8A returns a gen2 keymap reading Esc, grave, Tab, CapsLock, LShift, LCtrl down column 0; the yc500 reads 0x89, 0x92 and 0x97 answer only the opcode; the gen2 sleep read 0x91 answers four u16 (600, 600, 600, 600) at bytes 8..15. That fixes the family as gen2. Edge 0x88 answers a live block and the owner reports the edge light, so sideLight is on with the ACH105 record's layouts (K, X). Debounce 0x86 answers 4 at byte 1 and the ACH105 record declares it. The keymap fills 124 slots: 104 keys, Fn at 70, a knob as consumer Vol- and Vol+ at 120 and 121 and two 0x13 entries at 122 and 123 that sharkfin does not name, one of them the knob press. Local105_Siukie_ACH105W is Common104_GGDJ104 baked against that keymap, 106 of 107 with no twin keys; the photo shows the same 104 keys, knob and display.",
     "id": 3488,
     "name": "siukie_ach105w",
     "displayName": "ACH105W",
@@ -3994,21 +3993,25 @@
     "vendorId": 12625,
     "productId": 20545,
     "internalName": "siukie_ach105w",
-    "keyLayout": "Unknown",
-    "lightLayout": "",
-    "sideLightLayout": "",
+    "keyLayout": "Local105_Siukie_ACH105W",
+    "lightLayout": "K",
+    "sideLightLayout": "X",
     "profiles": 1,
     "magnetic": false,
     "family": "gen2",
     "features": {
-      "knob": [],
-      "debounce": false,
+      "knob": [
+        "AudioVolumeDown",
+        "AudioVolumeUp"
+      ],
+      "debounce": true,
       "sleep24": true,
       "sleepBT": true,
       "magneticSwitches": false,
       "screen": false,
-      "sideLight": false
-    }
+      "sideLight": true
+    },
+    "_unknown": "The picture's mute key has no slot: the knob press is a 0x13 entry, so it stays undrawn. The board has a display, shown in the owner's photos, that 0xAD does not announce; ABKO's driver names a 220 by 128 panel and uploads GIF frames with the 0xA5 announce ry5088 boards use but pages on 0x12 with its own header, a path no firmware image or hardware round-trip evidences, so screen stays off and sharkfin offers no upload. Profile 0x84 answers only the opcode and no setup report switched one, so profiles stays 1 where the ACH105 record says 2."
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
