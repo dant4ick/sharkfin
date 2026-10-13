@@ -1,5 +1,16 @@
 Beta. Back up from the Device tab before you rely on it.
 
+## What changed in 0.9.7
+
+**Two more boards.** Akko MOD68 HE and Siukie ACH105W, from reports in
+issues #76 and #74. Both draw out of the box, and the MOD68 gets the
+Switches tab.
+
+**Setup no longer refuses a magnetic board at its factory settings.** Its
+check wanted the keys' actuation points to differ, and a board nobody has
+tuned reads the same value on every key, so every such board failed the
+check and lost the Switches tab. Seen on the Akko MOD68 in issue #76.
+
 ## What changed in 0.9.6
 
 **Three more boards.** Luminkey60 Pro, Akko MU01 UK and the German Akko
