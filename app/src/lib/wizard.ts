@@ -273,14 +273,15 @@ export function judgePress(target: PressTarget, code: string): { ok: boolean; se
 }
 
 /** The switch columns of a board that has magnetic switches read as travel
- *  values: most plain keys between the unit and 5 mm, and not all one
- *  number. A board without them answers the read with something else. */
+ *  values: most plain keys between the unit and 5 mm. A board at its
+ *  factory settings reads one number on every slot, so sameness proves
+ *  nothing. A board without the switches answers the read with its own
+ *  echo, which puts a travel on two or three slots at most. */
 export function switchesLookReal(s: SwitchSettings): boolean {
   const plain = s.keys.filter((k) => k.kind === 0);
   if (plain.length < 8) return false;
   const sane = plain.filter((k) => k.travel >= s.unitMm && k.travel <= 5);
-  if (sane.length < plain.length * 0.8) return false;
-  return new Set(sane.map((k) => k.travel)).size > 1;
+  return sane.length >= plain.length * 0.8;
 }
 
 /** The backend's answer when a profile switch went out and the read after

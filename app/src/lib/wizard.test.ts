@@ -213,8 +213,10 @@ describe("the switch test", () => {
     expect(switchesLookReal({ format: "gen2", unitMm: 0.01, keys: keys.slice(0, 4) })).toBe(false);
     const flat = keys.map((k) => ({ ...k, travel: 0 }));
     expect(switchesLookReal({ format: "gen2", unitMm: 0.01, keys: flat })).toBe(false);
-    const same = keys.map((k) => ({ ...k, travel: 2 }));
-    expect(switchesLookReal({ format: "gen2", unitMm: 0.01, keys: same })).toBe(false);
+    const fresh = keys.map((k) => ({ ...k, travel: 2 }));
+    expect(switchesLookReal({ format: "gen2", unitMm: 0.01, keys: fresh })).toBe(true);
+    const echo = keys.map((k, i) => ({ ...k, travel: i === 0 ? 2.29 : i === 1 ? 0.01 : i === 3 ? 66.56 : 0 }));
+    expect(switchesLookReal({ format: "gen2", unitMm: 0.01, keys: echo })).toBe(false);
   });
 
   it("compares travel to the board's unit", () => {
