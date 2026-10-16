@@ -1183,7 +1183,8 @@ def main():
             layout_matrix[variant] = mat
             variants.setdefault(name, []).append(variant)
             for d in devices:
-                if d["id"] in ids:
+                # An override's keyLayout is hardware evidence; it wins.
+                if d["id"] in ids and "keyLayout" not in overrides.get(d["id"], {}):
                     d["keyLayout"] = variant
     write_devices()
 

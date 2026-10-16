@@ -1,5 +1,5 @@
 {
- "F7": {
+ "vA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -16,7 +16,7 @@
    }
   ]
  },
- "Rs": {
+ "Xn": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -45,7 +45,7 @@
    }
   ]
  },
- "yp": {
+ "vp": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -69,7 +69,7 @@
    }
   ]
  },
- "tf": {
+ "vg": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -88,7 +88,7 @@
    }
   ]
  },
- "af": {
+ "Kg": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -107,7 +107,7 @@
    }
   ]
  },
- "Dl": {
+ "Pl": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -136,7 +136,7 @@
    }
   ]
  },
- "O7": {
+ "LA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -156,7 +156,7 @@
    }
   ]
  },
- "U7": {
+ "xA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -175,7 +175,7 @@
    }
   ]
  },
- "K": {
+ "v": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -291,7 +291,7 @@
    }
   ]
  },
- "da": {
+ "Xi": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -407,7 +407,123 @@
    }
   ]
  },
- "z7": {
+ "DA": {
+  "rgb": false,
+  "brightnessMax": 4,
+  "effects": [
+   {
+    "mode": 4,
+    "speedMax": 4,
+    "rgb": true,
+    "options": [
+     "Right",
+     "Left",
+     "Down",
+     "Up"
+    ]
+   },
+   {
+    "mode": 5,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 6,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 7,
+    "speedMax": 4,
+    "rgb": true,
+    "options": [
+     "Zigzag",
+     "Spiral"
+    ]
+   },
+   {
+    "mode": 8,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 9,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 10,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 11,
+    "speedMax": 4,
+    "rgb": true,
+    "options": [
+     "Outward",
+     "Inward"
+    ]
+   },
+   {
+    "mode": 19,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 12,
+    "speedMax": 4,
+    "rgb": true,
+    "options": [
+     "Right",
+     "Left"
+    ]
+   },
+   {
+    "mode": 14,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 15,
+    "speedMax": 4,
+    "rgb": true,
+    "options": [
+     "CCW",
+     "CW"
+    ]
+   },
+   {
+    "mode": 16,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 17,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 18,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 1,
+    "rgb": true
+   },
+   {
+    "mode": 2,
+    "speedMax": 4,
+    "rgb": true
+   },
+   {
+    "mode": 3,
+    "speedMax": 4
+   }
+  ]
+ },
+ "AA": {
   "rgb": false,
   "brightnessMax": 9,
   "effects": [
@@ -416,7 +532,7 @@
    }
   ]
  },
- "Ye": {
+ "He": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -648,7 +764,7 @@
    }
   ]
  },
- "Ct": {
+ "xt": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -773,7 +889,7 @@
    }
   ]
  },
- "nf": {
+ "Cg": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -898,7 +1014,7 @@
    }
   ]
  },
- "j7": {
+ "EA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1023,7 +1139,7 @@
    }
   ]
  },
- "I5": {
+ "a3": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1139,7 +1255,7 @@
    }
   ]
  },
- "Td": {
+ "Ud": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1255,7 +1371,7 @@
    }
   ]
  },
- "hr": {
+ "vr": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1371,7 +1487,7 @@
    }
   ]
  },
- "Md": {
+ "zd": {
   "rgb": true,
   "brightnessMax": 7,
   "effects": [
@@ -1487,7 +1603,7 @@
    }
   ]
  },
- "H7": {
+ "RA": {
   "rgb": true,
   "brightnessMax": 6,
   "effects": [
@@ -1587,7 +1703,7 @@
    }
   ]
  },
- "xt": {
+ "At": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1611,7 +1727,7 @@
    }
   ]
  },
- "X": {
+ "Y": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1640,7 +1756,7 @@
    }
   ]
  },
- "oa": {
+ "Yi": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1669,7 +1785,7 @@
    }
   ]
  },
- "G7": {
+ "Kp": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1702,7 +1818,7 @@
    }
   ]
  },
- "o1": {
+ "w1": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1731,7 +1847,7 @@
    }
   ]
  },
- "W7": {
+ "TA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1760,7 +1876,7 @@
    }
   ]
  },
- "yu": {
+ "vu": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1789,7 +1905,7 @@
    }
   ]
  },
- "Y7": {
+ "MA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1812,7 +1928,7 @@
    }
   ]
  },
- "X7": {
+ "IA": {
   "rgb": true,
   "brightnessMax": 5,
   "effects": [
@@ -1835,7 +1951,7 @@
    }
   ]
  },
- "bo": {
+ "Do": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1859,7 +1975,7 @@
    }
   ]
  },
- "Zt": {
+ "Jt": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1878,7 +1994,30 @@
    }
   ]
  },
- "q7": {
+ "PA": {
+  "rgb": true,
+  "brightnessMax": 4,
+  "effects": [
+   {
+    "mode": 4,
+    "speedMax": 3
+   },
+   {
+    "mode": 1,
+    "rgb": true
+   },
+   {
+    "mode": 2,
+    "speedMax": 3,
+    "rgb": true
+   },
+   {
+    "mode": 3,
+    "speedMax": 3
+   }
+  ]
+ },
+ "FA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1892,7 +2031,7 @@
    }
   ]
  },
- "Rr": {
+ "Br": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1916,7 +2055,7 @@
    }
   ]
  },
- "_p": {
+ "Cp": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1937,7 +2076,7 @@
    }
   ]
  },
- "rf": {
+ "Lg": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -1962,7 +2101,7 @@
    }
   ]
  },
- "Z7": {
+ "NA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -2058,7 +2197,7 @@
    }
   ]
  },
- "J7": {
+ "BA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -2082,7 +2221,7 @@
    }
   ]
  },
- "Q7": {
+ "VA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [
@@ -2106,7 +2245,7 @@
    }
   ]
  },
- "eA": {
+ "OA": {
   "rgb": true,
   "brightnessMax": 4,
   "effects": [

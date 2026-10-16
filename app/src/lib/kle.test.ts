@@ -36,6 +36,9 @@ const TOLERATED = new Set([
   // DE pictures, ISO punctuation keys and the UK quote key.
   "* + ~", "' #", "> < |", ": .", ",;", "#'", "/", ".", "; .", "^ ' [",
   "* + ]", "=+ }", "><\\", "' @", "| \\", "* } + ]",
+  // October 2026: JP and Turkish punctuation pairs, a UK ISO key and an
+  // abbreviation one board uses.
+  "\\_", ":*", ";+", "^~", "-=", "><", "+=}", "=+}", ",;`", "-_", "Orig",
 ]);
 
 function tolerated(label: string): boolean {

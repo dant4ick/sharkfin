@@ -41,7 +41,7 @@
     "productId": 16387,
     "internalName": "yc200_mk11",
     "keyLayout": "Common82_PC75S",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -62,7 +62,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_PC75S in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_PC75S in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #40. Not in the vendor's device tables, so an extraction alone will not add it. The board's own product string is 'Akko  Keyboard'; the owner names it an Akko ACR75 v2 and sent a photo. The board's settings collection reports usage 1 on the vendor page where every other board reports 2, which is why 0.6.0 did not find it; discovery accepts both since this entry.",
@@ -132,7 +133,7 @@
     "productId": 16387,
     "internalName": "yc300_3084bp_iso_uk",
     "keyLayout": "Common85_3084BP",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -149,7 +150,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common85_3084BP in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common85_3084BP in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #22. Not in any vendor catalogue, so an extraction alone will not add it. The wireless RT100 is device 1379 on 3151:4015; this wired variant answers its own id on 3151:4010.",
@@ -223,7 +225,7 @@
     "productId": 16405,
     "internalName": "yc500_5108bplus_uk_soc",
     "keyLayout": "Common108_MG108B",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -239,7 +241,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #27. Not in any vendor catalogue, old or current, so an extraction alone will not add it. The board's own product string is the generic 'Gaming Keyboard'; the owner names it as an Attack Shark X65HE ('Ataka Akul' is the brand's Russian name), but see _unknown: the name and the keymap disagree.",
@@ -341,7 +344,7 @@
     "productId": 16405,
     "internalName": "yc3121_m3w_soc",
     "keyLayout": "Common87_MonsGeek_M3V5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -361,7 +364,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -375,7 +379,7 @@
     "productId": 16405,
     "internalName": "yc500_m7wnosled_soc",
     "keyLayout": "Common68_MK902_2",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -391,7 +395,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #24. Not in any vendor catalogue. The three NJ98-CP boards the vendor does list (2576, 3496, 3793) are magnetic gen2 boards on 3151:502f and 3151:5030; this one shares the name and nothing else.",
@@ -433,7 +438,7 @@
     "productId": 16387,
     "internalName": "yc300_3098bplus",
     "keyLayout": "Common98_xl98",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -449,7 +454,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -463,7 +469,7 @@
     "productId": 16405,
     "internalName": "yc500_mod007bpc_soc",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -483,7 +489,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -497,7 +504,7 @@
     "productId": 16405,
     "internalName": "yc500_ice75_soc",
     "keyLayout": "Common82_SG9000_v3",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -518,7 +525,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common82_SG9000_v3 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common82_SG9000_v3 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -532,8 +540,8 @@
     "productId": 16387,
     "internalName": "yc300_5075b_plus_s",
     "keyLayout": "Common82_MOD007BHE",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "yc500",
@@ -553,7 +561,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common82_MOD007BHE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_MOD007BHE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #33. Not in any vendor catalogue, so an extraction alone will not add it. The board's own product string is 'Monka A75'.",
@@ -595,7 +604,7 @@
     "productId": 16405,
     "internalName": "yc3121_mu01_soc",
     "keyLayout": "Common68_kc68rt",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -611,7 +620,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -625,7 +635,7 @@
     "productId": 16437,
     "internalName": "yc3121_m1whes_hall_8k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 5,
     "magnetic": true,
@@ -641,7 +651,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -655,7 +666,7 @@
     "productId": 16437,
     "internalName": "yc3121_mod007bv3he_soc_8k",
     "keyLayout": "Common82_MOD007BHE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 5,
     "magnetic": true,
@@ -676,7 +687,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_MOD007BHE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_MOD007BHE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -690,7 +702,7 @@
     "productId": 16437,
     "internalName": "yc3121_mg75s_hes_dm_hall_8k",
     "keyLayout": "Common83_MG75S",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -707,7 +719,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common83_MG75S in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common83_MG75S in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #15. The board's own product string is the generic 'Gaming Keyboard', so only the identify reply names it. Not in any vendor catalogue. Issue #3 was a different keyboard sold under the AK820 name on USB 1a2c:9605, a controller sharkfin cannot talk to; this MAX variant is on the ROYUAN platform.",
@@ -749,8 +762,8 @@
     "productId": 16400,
     "internalName": "yc3121_top75b_soc",
     "keyLayout": "Common81_beat75",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -765,7 +778,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #35. Not in any vendor catalogue, so an extraction alone will not add it. The board's own product string is 'K600-B82'; the owner names it a Machenike K600-B82W, the wireless variant. The vendor OTA API has no record for id 1721.",
@@ -839,7 +853,7 @@
     "productId": 16387,
     "internalName": "yc300_5108bp_iso_ne",
     "keyLayout": "Common108_5108V5UK",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -856,7 +870,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common108_5108V5UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common108_5108V5UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -870,8 +885,8 @@
     "productId": 16405,
     "internalName": "yc3121_kf102_soc",
     "keyLayout": "Common97_5098B",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "yc500",
@@ -896,7 +911,8 @@
       "screen": true,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common97_5098B in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common97_5098B in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -910,7 +926,7 @@
     "productId": 16405,
     "internalName": "yc3121_m1w_v5_soc",
     "keyLayout": "Common82_SG9000_v3",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -931,7 +947,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common82_SG9000_v3 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common82_SG9000_v3 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #9. Not in any vendor catalogue, so an extraction alone will not add it.",
@@ -1001,7 +1018,7 @@
     "productId": 20528,
     "internalName": "ry5088_m1w_v5_soc_8k",
     "keyLayout": "Common82_M1_V5_TMR",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1022,7 +1039,37 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_TMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_TMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1036,7 +1083,7 @@
     "productId": 20526,
     "internalName": "ry5088_fun60_nolight_1k_005",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1052,7 +1099,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1066,7 +1139,7 @@
     "productId": 20525,
     "internalName": "ry5088_akko_fun60pro_1m_8k",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1082,7 +1155,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1096,7 +1195,7 @@
     "productId": 20527,
     "internalName": "ry5088_fun60pro_8k_002",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1112,7 +1211,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1126,7 +1251,7 @@
     "productId": 20528,
     "internalName": "ry5088_fun60max_8k",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1142,7 +1267,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1156,7 +1307,7 @@
     "productId": 20528,
     "internalName": "ry5088_fun60max2_8k",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1172,7 +1323,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1186,7 +1367,7 @@
     "productId": 20521,
     "internalName": "ry5088_fun60ultra_8k_dm_dfn4",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1202,7 +1383,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "Reported in issue #65. Not in any vendor catalogue, the legacy table or the update channel, so an extraction alone will not add it. The board's own product string is 'Gaming Keyboard'; the owner names it an Atas A75.",
@@ -1250,7 +1461,7 @@
     "internalName": "kwumsy_k3",
     "keyLayout": "Common82_M1_V5_TMR",
     "lightLayout": "",
-    "sideLightLayout": "xt",
+    "sideLightLayout": "At",
     "profiles": 4,
     "magnetic": false,
     "family": "yc500",
@@ -1280,7 +1491,7 @@
     "productId": 20525,
     "internalName": "ry5088_fun60ultra_8k_dm",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1296,7 +1507,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1310,7 +1547,7 @@
     "productId": 20528,
     "internalName": "ry5088_fun60ultra_8k_2049e",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1326,7 +1563,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "Reported in issue #19. Not in any vendor catalogue. The board's own product string is the generic 'Gaming Keyboard', so only the identify reply names it.",
@@ -1376,7 +1639,7 @@
     "productId": 20525,
     "internalName": "ry5088_fun60pro_8k_dm",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1392,7 +1655,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1406,7 +1695,7 @@
     "productId": 20528,
     "internalName": "ry5088_akko_m1_v5_uk_3m_pan1080_8k",
     "keyLayout": "Common82_M1_V5_UK",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1427,7 +1716,41 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1441,8 +1764,8 @@
     "productId": 16405,
     "internalName": "yc3121_5075bplus_s_mac_soc",
     "keyLayout": "Common82_5075B",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -1462,7 +1785,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common82_5075B in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_5075B in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #36. Not in any vendor catalogue, so an extraction alone will not add it. The board's own product string is 'Gaming Keyboard'; the owner names it a Fire Phoenix BK-11, sold in Brazil as a tri-mode keyboard and mouse kit with an ABNT2 legend set. The vendor OTA API has no record for id 2570.",
@@ -1504,8 +1828,8 @@
     "productId": 20517,
     "internalName": "pan1086_alice_soc",
     "keyLayout": "Common68_Alice",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -1521,7 +1845,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common68_Alice in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common68_Alice in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1535,7 +1860,7 @@
     "productId": 20528,
     "internalName": "ry5088_m1v5heb_soc_8k_dfn4",
     "keyLayout": "Common82_M1_V5_TMR",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1556,7 +1881,45 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_TMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_TMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 25,
+        "name": "Starlight"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -1570,8 +1933,8 @@
     "productId": 20528,
     "internalName": "ry5088_veekosk0038_8k_8k",
     "keyLayout": "Common68_K80X68",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -1586,7 +1949,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1600,8 +1985,8 @@
     "productId": 16400,
     "internalName": "yc3121_akko_k0039_1m",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -1616,7 +2001,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1630,8 +2016,8 @@
     "productId": 20482,
     "internalName": "yc3123_akko_5075bplus_3m_1k",
     "keyLayout": "Common82_SG9000_v2",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -1651,7 +2037,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common82_SG9000_v2 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_SG9000_v2 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1665,8 +2052,8 @@
     "productId": 20527,
     "internalName": "ry5088_akko5075b_3m_8k_1k_1049es",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -1685,7 +2072,41 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 25,
+        "name": "Shine"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1699,8 +2120,8 @@
     "productId": 20527,
     "internalName": "ry5088_akko_5087b_3m_8k_1k",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -1715,7 +2136,41 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 25,
+        "name": "Shine"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1729,7 +2184,7 @@
     "productId": 20527,
     "internalName": "ry5088_akko_mod007_v5_3m_8k_8k",
     "keyLayout": "Common82_MOD007V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -1755,7 +2210,37 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "Present in the vendor catalogue until the 2026-07-30 refresh, then removed. The hardware still exists, so dropping it would take away support someone already has. Delete this entry if the vendor lists id 2872 again.",
@@ -1796,7 +2281,7 @@
     "productId": 16387,
     "internalName": "yc3121_3084bp_iso_3m",
     "keyLayout": "Common85_3084BP",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -1813,7 +2298,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common85_3084BP in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common85_3084BP in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1827,7 +2313,7 @@
     "productId": 20482,
     "internalName": "yc3123_akko_kf106_3m_1k",
     "keyLayout": "Common87_KF106",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -1853,7 +2339,8 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common87_KF106 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common87_KF106 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1867,8 +2354,8 @@
     "productId": 20482,
     "internalName": "yc3123_akko_air01_3m_1k",
     "keyLayout": "Common84_Air01",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -1884,7 +2371,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common84_Air01 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common84_Air01 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1898,7 +2386,7 @@
     "productId": 20482,
     "internalName": "yc3123_akko_kf105_3m_1k",
     "keyLayout": "Common67_KF105",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -1924,7 +2412,8 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common67_KF105 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common67_KF105 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1938,7 +2427,7 @@
     "productId": 20482,
     "internalName": "yc3123_akko_mod007v5_3m_1k",
     "keyLayout": "Common82_MOD007V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -1964,7 +2453,8 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -1978,7 +2468,7 @@
     "productId": 16400,
     "internalName": "yc3121_akko_3108_v3_single_1m",
     "keyLayout": "Common108_MG108B",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -1994,7 +2484,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2008,7 +2499,7 @@
     "productId": 20521,
     "internalName": "ry5088_akko_fun60_prob_jp_8k",
     "keyLayout": "Common61_FUN60B",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2025,7 +2516,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common61_FUN60B in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common61_FUN60B in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -2039,7 +2531,7 @@
     "productId": 20521,
     "internalName": "ry5088_akko_fun68_8k_1m",
     "keyLayout": "Common68_K80X68",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2055,7 +2547,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 25,
+        "name": "Shine"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2069,8 +2591,8 @@
     "productId": 20482,
     "internalName": "yc3123_akko_5087v2_3m_1k",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -2085,7 +2607,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -2099,8 +2622,8 @@
     "productId": 20521,
     "internalName": "ry5088_akko_k0038_1m_8k_3099",
     "keyLayout": "Common68_K80X68",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -2115,7 +2638,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2129,8 +2674,8 @@
     "productId": 20528,
     "internalName": "ry5088_alice_soc_8k",
     "keyLayout": "Common68_AliceH",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "unknown",
@@ -2146,7 +2691,33 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common68_AliceH in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common68_AliceH in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2160,7 +2731,7 @@
     "productId": 20521,
     "internalName": "ry5088_akko_mod007_v5_he_1m_8k",
     "keyLayout": "Common82_MOD007V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2186,7 +2757,37 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2200,8 +2801,8 @@
     "productId": 20482,
     "internalName": "yc3123_akko_5075s_1m_1k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -2216,7 +2817,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2230,8 +2832,8 @@
     "productId": 20525,
     "internalName": "ry5088_akko_5075bv2he_1m",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -2250,7 +2852,41 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 25,
+        "name": "Shine"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2264,8 +2900,8 @@
     "productId": 20482,
     "internalName": "yc3123_akko_5087v2_1m_1k",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -2280,7 +2916,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2294,8 +2931,8 @@
     "productId": 20521,
     "internalName": "ry5088_akko_5087bv2he_1m_8k",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -2310,7 +2947,41 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 25,
+        "name": "Shine"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -2324,7 +2995,7 @@
     "productId": 20482,
     "internalName": "yc3123_akko_3068b_3m_1k_soc",
     "keyLayout": "Common68_FUN68",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -2341,7 +3012,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common68_FUN68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common68_FUN68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2355,7 +3027,7 @@
     "productId": 16437,
     "internalName": "yc3121_mod0078_he_b_3m",
     "keyLayout": "Common82_MOD007BHE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2376,7 +3048,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_MOD007BHE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_MOD007BHE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2390,7 +3063,7 @@
     "productId": 16437,
     "internalName": "yc3121_mod0078_he_c_3m",
     "keyLayout": "Common82_SG9000_v2",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2411,7 +3084,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_SG9000_v2 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_SG9000_v2 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2425,7 +3099,7 @@
     "productId": 20528,
     "internalName": "ry5088_akko_mod68_8k_8k_3m",
     "keyLayout": "Common68_ROYALAXE_K80X68",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 2,
     "magnetic": true,
@@ -2442,7 +3116,37 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common68_ROYALAXE_K80X68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common68_ROYALAXE_K80X68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "Reported in issue #76 with a read sweep, a setup report and a photo. In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from; the family was unknown until the owner's board answered.",
@@ -2456,7 +3160,7 @@
     "productId": 20521,
     "internalName": "ry5088_akko_mod68_8k_1m",
     "keyLayout": "Local68_Akko_MOD68",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2473,7 +3177,37 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "The rainbow test saw no change, so the LED flags stay at the vendor default. Debounce 0x86 and display 0xAD answer only the opcode, so neither. No knob in the keymap. The owner has no edge light. Akko lists eight switch models by Chinese name with no codes in its build, so no switch model column, and the record carries no travel range. Setup read the switch columns before the family was settled and its check refused them; the columns are not in the bundle, so no switch write has been round-tripped on this board."
+    "_unknown": "The rainbow test saw no change, so the LED flags stay at the vendor default. Debounce 0x86 and display 0xAD answer only the opcode, so neither. No knob in the keymap. The owner has no edge light. Akko lists eight switch models by Chinese name with no codes in its build, so no switch model column, and the record carries no travel range. Setup read the switch columns before the family was settled and its check refused them; the columns are not in the bundle, so no switch write has been round-tripped on this board.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -2488,8 +3222,8 @@
     "productId": 6150,
     "internalName": "yc3123_fl_k2505mmxf_3m_1k",
     "keyLayout": "Common104_K2513",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 3,
     "magnetic": false,
     "family": "gen2",
@@ -2508,7 +3242,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2522,7 +3257,7 @@
     "productId": 20521,
     "internalName": "ry5088_akko_5087hejp_1m_8k",
     "keyLayout": "Common92_5087HEJP",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2546,7 +3281,29 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common92_5087HEJP in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common92_5087HEJP in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -2561,8 +3318,8 @@
     "productId": 6150,
     "internalName": "yc3123_fl_k2514_3m_1k",
     "keyLayout": "Common87_K2514",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 3,
     "magnetic": false,
     "family": "gen2",
@@ -2581,7 +3338,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2595,8 +3353,8 @@
     "productId": 20528,
     "internalName": "ry5088_akko_tac87_1m_8k",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "unknown",
@@ -2611,7 +3369,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 25,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -2625,7 +3413,7 @@
     "productId": 20482,
     "internalName": "yc3123_akko_mg108b_3m_1k",
     "keyLayout": "Common108_MG108B",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -2641,7 +3429,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -2656,8 +3445,8 @@
     "productId": 6150,
     "internalName": "yc3123_fl_k2513h_c_uk_3m_1k",
     "keyLayout": "Common104_K2513UK",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 3,
     "magnetic": false,
     "family": "gen2",
@@ -2676,7 +3465,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -2691,8 +3481,8 @@
     "productId": 6150,
     "internalName": "yc3123_fl_k2405_3m_1k_rgb_kb_soc_v100",
     "keyLayout": "Common82_K2405",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 3,
     "magnetic": false,
     "family": "gen2",
@@ -2707,7 +3497,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -2721,7 +3512,7 @@
     "productId": 6150,
     "internalName": "yc3123_fl_k258_21_3m_1k",
     "keyLayout": "Common21_K258",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -2737,7 +3528,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -2752,7 +3544,7 @@
     "productId": 6150,
     "internalName": "yc3123_fl_k258_87_3m_1k",
     "keyLayout": "Common87_K258",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -2768,7 +3560,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2782,8 +3575,8 @@
     "productId": 20556,
     "internalName": "ry6609_5075v3_8k_8k_3m",
     "keyLayout": "Common82_5075B",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -2799,7 +3592,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common82_5075B in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_5075B in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2813,8 +3607,8 @@
     "productId": 20556,
     "internalName": "ry6609_5087v3_8k_8k_3m",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -2829,7 +3623,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -2844,8 +3639,8 @@
     "productId": 6150,
     "internalName": "yc3123_fl_k2514c_uk_3m_1k",
     "keyLayout": "Common87_K2514UK",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 3,
     "magnetic": false,
     "family": "gen2",
@@ -2864,7 +3659,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -2878,8 +3674,8 @@
     "productId": 1,
     "internalName": "ry5088_akko_veekosshine68_3m_8k",
     "keyLayout": "Common68_K80X68",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -2894,7 +3690,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -2908,8 +3726,8 @@
     "productId": 9,
     "internalName": "ry5088_akko_veekosshine68_1m_8k",
     "keyLayout": "Common68_K80X68",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 2,
     "magnetic": true,
     "family": "gen2",
@@ -2928,7 +3746,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2942,7 +3782,7 @@
     "productId": 20528,
     "internalName": "ry5088_gem02_8k_8k",
     "keyLayout": "Common102",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2958,7 +3798,41 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -2972,7 +3846,7 @@
     "productId": 20528,
     "internalName": "ry5088_gem01_8k_8k",
     "keyLayout": "Common83_mineral01",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -2988,7 +3862,41 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -3003,7 +3911,7 @@
     "productId": 6150,
     "internalName": "yc3123_fl_k258_87uk_3m_1k",
     "keyLayout": "Common87_K2514H_CUK",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -3019,7 +3927,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -3033,7 +3942,7 @@
     "productId": 6150,
     "internalName": "yc3123_k2506mxa_ua_dm",
     "keyLayout": "Common67_K2506MA",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -3053,7 +3962,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3067,7 +3977,7 @@
     "productId": 20482,
     "internalName": "yc3123_5108v5_soc",
     "keyLayout": "Common108_MG108B",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -3083,7 +3993,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #38. A new revision of the VGN Neon75: the vendor tables carry five Neon75 ids (2781, 2859, 2904, 2905, 3237) and the GK8640GW PRO, Air and Turbo, but not 3288, so an extraction alone will not add it. The board's product string is 'VGN Neon75 Extreme Tri-mode Keyboard'; the owner names it the Neon Super Competitive Edition with Tianba magnetic switches. The vendor OTA API has no record for 3288 or for any Neon75 id. Fields other than the layout copy 3237, which shares 3151:5054.",
@@ -3098,7 +4009,7 @@
     "productId": 20564,
     "internalName": "vgn_neon75_extreme",
     "keyLayout": "Local82_VGN_Neon75_Extreme",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "Yt",
     "profiles": 4,
     "magnetic": true,
@@ -3129,7 +4040,7 @@
     "productId": 16400,
     "internalName": "yc3121_akko_3087s_us_single_1m",
     "keyLayout": "Common87_MonsGeek_M3V5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -3145,7 +4056,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -3159,7 +4071,7 @@
     "productId": 20528,
     "internalName": "ry5088_akko_fun60max_3m_8k",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -3200,7 +4112,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3214,7 +4127,7 @@
     "productId": 20528,
     "internalName": "ry5088_m1v5he_3m_8k_8k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 2,
     "magnetic": true,
@@ -3234,7 +4147,41 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 25,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3248,7 +4195,7 @@
     "productId": 20521,
     "internalName": "ry5088_akko_mod007sv3he_us_b_1m_8k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -3268,7 +4215,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3282,7 +4251,7 @@
     "productId": 20521,
     "internalName": "ry5088_akko_mod007sv3he_uk_b_1m_8k",
     "keyLayout": "Common83_mod007sv3he_uk",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -3302,7 +4271,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3316,7 +4307,7 @@
     "productId": 20528,
     "internalName": "ry5088_akko_mod68_uk_8k_8k_3m",
     "keyLayout": "Common69_MOD68UK",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 2,
     "magnetic": true,
@@ -3333,7 +4324,33 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common69_MOD68UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common69_MOD68UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3347,8 +4364,8 @@
     "productId": 20528,
     "internalName": "ry5088_akko_5075_v3_he_3m_8k_8k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "unknown",
@@ -3367,7 +4384,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3381,8 +4420,8 @@
     "productId": 20528,
     "internalName": "ry5088_akko_5087_v3_he_3m_8k_8k",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "unknown",
@@ -3397,7 +4436,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3411,7 +4472,7 @@
     "productId": 10,
     "internalName": "yc3121_akko_5075a_1m_1k_rgb_v500",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -3431,7 +4492,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3445,7 +4507,7 @@
     "productId": 10,
     "internalName": "yc3121_akko_5075b_1m_1k_rgb_v500",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -3465,7 +4527,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -3480,7 +4543,7 @@
     "productId": 13862,
     "internalName": "yc3121_fl_k258_87_us_soc",
     "keyLayout": "Common87_K258",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -3496,7 +4559,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -3511,7 +4575,7 @@
     "productId": 13862,
     "internalName": "yc3121_fl_k258_87_uk_soc",
     "keyLayout": "Common87_K258_UK",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -3527,7 +4591,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -3541,7 +4606,7 @@
     "productId": 13862,
     "internalName": "yc3121_fl_k258_21_soc",
     "keyLayout": "Common21_K258",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": false,
@@ -3557,7 +4622,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3571,7 +4637,7 @@
     "productId": 9,
     "internalName": "ry5088_akko_mod68_uk_8k_1m_v500",
     "keyLayout": "Common69_MOD68UK",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 2,
     "magnetic": true,
@@ -3588,7 +4654,33 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common69_MOD68UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common69_MOD68UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "Reported in issue #44. A second revision of the VGN Neon75 Extreme: 3288 (issue #38) shares the product string 'VGN Neon75 Extreme Tri-mode Keyboard' and 3151:5054, and the vendor tables carry neither id, so an extraction alone will not add it. The vendor OTA API has no record for 3391, 3288 or 3237. Fields copy 3288.",
@@ -3603,7 +4695,7 @@
     "productId": 20564,
     "internalName": "vgn_neon75_extreme_v2",
     "keyLayout": "Local82_VGN_Neon75_Extreme",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "Yt",
     "profiles": 4,
     "magnetic": true,
@@ -3634,7 +4726,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_mod68_3m_8k_8k_v400",
     "keyLayout": "Common68_ROYALAXE_K80X68",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -3651,7 +4743,37 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common68_ROYALAXE_K80X68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common68_ROYALAXE_K80X68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3665,7 +4787,7 @@
     "productId": 20528,
     "internalName": "ry5088_akko_mod007_v5_he_b_3m_8k_8k_v500",
     "keyLayout": "Common82_MOD007V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -3691,7 +4813,33 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3705,7 +4853,7 @@
     "productId": 20521,
     "internalName": "ry5088_akko_mod007_v5_he_b_1m_8k_8k_v500",
     "keyLayout": "Common82_MOD007V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -3731,7 +4879,33 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_MOD007V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3745,7 +4919,7 @@
     "productId": 20556,
     "internalName": "ry6609_akko_5108s_v5_3m_8k_8k",
     "keyLayout": "Common108_5108V5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -3762,7 +4936,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common108_5108V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common108_5108V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3776,8 +4951,8 @@
     "productId": 1,
     "internalName": "ry5088_akko_5087_v3_he_3m_8k_8k_v400",
     "keyLayout": "Common88_5087V5",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "unknown",
@@ -3793,7 +4968,37 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common88_5087V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common88_5087V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -3807,7 +5012,7 @@
     "productId": 9,
     "internalName": "ry5088_fun68_uk_dm_8k",
     "keyLayout": "Common68_fun68_uk",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -3824,7 +5029,33 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common68_fun68_uk in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common68_fun68_uk in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3838,7 +5069,7 @@
     "productId": 3,
     "internalName": "ry6609_akko_5087_v5_3m_8k_8k",
     "keyLayout": "Common88_5087V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -3855,7 +5086,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common88_5087V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common88_5087V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3869,7 +5101,7 @@
     "productId": 3,
     "internalName": "ry6609_akko_5075_v5_3m_8k_8k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -3889,7 +5121,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -3903,8 +5136,8 @@
     "productId": 20482,
     "internalName": "yc3123_akko_air01uk_3m_1k",
     "keyLayout": "Common84_Air01UK",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -3920,7 +5153,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common84_Air01UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common84_Air01UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -3934,8 +5168,8 @@
     "productId": 20528,
     "internalName": "ry5088_akko_k0038b_3m_8k_8k",
     "keyLayout": "Common68_K80X68",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -3950,7 +5184,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -3964,8 +5220,8 @@
     "productId": 20521,
     "internalName": "ry5088_akko_k0038_1m_8k",
     "keyLayout": "Common68_K80X68",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -3980,7 +5236,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "Reported in issues #12 and #13 as not working, which is what an unrecognised board looks like, and again in issue #74 with a read sweep, a layout bundle and photos. Not in any vendor catalogue. ABKO's ACH105 (3117, pan1086_chaorun_ach105_3m) is the same model on the same USB ids under another brand; the owner runs ABKO's own driver on it.",
@@ -3994,8 +5272,8 @@
     "productId": 20545,
     "internalName": "siukie_ach105w",
     "keyLayout": "Local105_Siukie_ACH105W",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 1,
     "magnetic": false,
     "family": "gen2",
@@ -4025,7 +5303,7 @@
     "productId": 5,
     "internalName": "ry6602_akko_5108_v5_3m_1k_1k",
     "keyLayout": "Common108_5108V5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -4042,7 +5320,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common108_5108V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common108_5108V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4056,7 +5335,7 @@
     "productId": 5,
     "internalName": "ry6602_akko_5087_v5_1k_1k_3m",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -4072,7 +5351,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4086,7 +5366,7 @@
     "productId": 5,
     "internalName": "ry6602_akko_5075_v5_3m_1k_1k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -4106,7 +5386,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "Reported in issue #48. Not in the gearhub catalogue, and the vendor update channel has no record for 3599, so an extraction alone will not add it. It is in Hator's own SyncHUB build (hator.io, desktop 3.1.27), the same driver with Hator's own tables, saved under ~/vendor-builds/hator-20260911: id 3599 is HTK4180UA, yc3123_k2505_soc, the record of 2861 plus canSyncSystemInfo. The display name stays SKYFALL 80 PRO, which is what the box and the board's product string say; HTK4180UA is the SKU, and 2861 already carries it.",
@@ -4121,8 +5402,8 @@
     "productId": 6150,
     "internalName": "yc3123_k2505_soc",
     "keyLayout": "Common82_K2505~k1",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -4158,8 +5439,8 @@
     "productId": 6150,
     "internalName": "yc3123_k2505_soc",
     "keyLayout": "Common82_K2505",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -4183,7 +5464,8 @@
       "magneticSwitches": false,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4197,8 +5479,8 @@
     "productId": 6150,
     "internalName": "yc3123_k2505uk_3m_1k_soc",
     "keyLayout": "Common83_K2505UK",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -4222,7 +5504,8 @@
       "magneticSwitches": false,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4236,8 +5519,8 @@
     "productId": 6150,
     "internalName": "yc3123_k2506mxe_3m_1k_soc",
     "keyLayout": "Common67_K2506_v2",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -4257,7 +5540,8 @@
       "magneticSwitches": false,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4271,8 +5555,8 @@
     "productId": 6150,
     "internalName": "yc3123_k2506mxe_3m_1k_soc",
     "keyLayout": "Common67_K2506_v2",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -4292,7 +5576,8 @@
       "magneticSwitches": false,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4306,8 +5591,8 @@
     "productId": 6150,
     "internalName": "yc3123_k2506mxg_uk_soc",
     "keyLayout": "Common68_K2506_UK_v2",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "gen2",
@@ -4327,7 +5612,8 @@
       "magneticSwitches": false,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4342,8 +5628,8 @@
     "productId": 6147,
     "internalName": "ry5088_k2506he_c_3m_8k_8k",
     "keyLayout": "Common67_K2506",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 3,
     "magnetic": true,
     "family": "gen2",
@@ -4363,7 +5649,33 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Red Sky Axis"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4378,8 +5690,8 @@
     "productId": 6147,
     "internalName": "ry5088_k2506he_c_3m_8k_8k",
     "keyLayout": "Common67_K2506",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -4399,7 +5711,8 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4414,8 +5727,8 @@
     "productId": 6147,
     "internalName": "ry5088_k2506hee_uk_3m_8k_8k",
     "keyLayout": "Common68_K2506_UK",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -4435,7 +5748,8 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4449,8 +5763,8 @@
     "productId": 6147,
     "internalName": "ry5088_k2505_8k_8k_new_ua",
     "keyLayout": "Common82_K2505~k2",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -4474,7 +5788,33 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4488,8 +5828,8 @@
     "productId": 6147,
     "internalName": "ry5088_k2505_8k_8k_new_us",
     "keyLayout": "Common82_K2505~k2",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -4513,7 +5853,33 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4527,8 +5893,8 @@
     "productId": 6147,
     "internalName": "ry5088_k2505hee_8k_uk",
     "keyLayout": "Common83_K2505UK~k1",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "gen2",
@@ -4552,7 +5918,33 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4566,8 +5958,8 @@
     "productId": 1,
     "internalName": "ry5088_akko_5087_v5_he_3m_8k_8k",
     "keyLayout": "Common87_5087SV3",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "unknown",
@@ -4582,7 +5974,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4596,8 +6014,8 @@
     "productId": 1,
     "internalName": "ry5088_akko_5075_v5_he_3m_8k_8k_ry1049es",
     "keyLayout": "Common82_PC75S",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "unknown",
@@ -4617,7 +6035,33 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common82_PC75S in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_PC75S in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4631,7 +6075,7 @@
     "productId": 16400,
     "internalName": "yc3121_akko_3098s_1m_single",
     "keyLayout": "Common98_xl98",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -4647,7 +6091,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4661,8 +6106,8 @@
     "productId": 20566,
     "internalName": "ry6602_akko_air01_uk_3m_1k_1k",
     "keyLayout": "Common84_Air01UK",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -4678,7 +6123,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common84_Air01UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common84_Air01UK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4692,8 +6138,8 @@
     "productId": 6147,
     "internalName": "ry5088_k2505_8k_8k_ry1049",
     "keyLayout": "Common82_K2505",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 3,
     "magnetic": true,
     "family": "gen2",
@@ -4742,7 +6188,33 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -4756,7 +6228,7 @@
     "productId": 20528,
     "internalName": "ry5088_akko_fun60_b_uk_3m_8k_1k",
     "keyLayout": "Common61_gk06uk",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -4798,7 +6270,37 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common61_gk06uk in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common61_gk06uk in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 25,
+        "name": "Shine"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -4812,8 +6314,8 @@
     "productId": 6147,
     "internalName": "ry5088_fl_k2505_uk_3m_8k_8k",
     "keyLayout": "Common83_K2505UK",
-    "lightLayout": "K",
-    "sideLightLayout": "oa",
+    "lightLayout": "v",
+    "sideLightLayout": "Yi",
     "profiles": 3,
     "magnetic": true,
     "family": "gen2",
@@ -4862,7 +6364,33 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4876,7 +6404,7 @@
     "productId": 20556,
     "internalName": "ry6609_akko_5108s_v5_3m_8k_8k",
     "keyLayout": "Common108_5108V5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -4893,7 +6421,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common108_5108V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common108_5108V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4907,7 +6436,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5108_v5_he_3m_8k_8k",
     "keyLayout": "Common108_5108V5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -4931,7 +6460,21 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common108_5108V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common108_5108V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4945,7 +6488,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5075_v5_he_3m_8k_8k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -4972,7 +6515,21 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -4986,7 +6543,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5087_v5_he_3m_8k_8k_ry1049es",
     "keyLayout": "Common88_5087V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5003,7 +6560,21 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common88_5087V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common88_5087V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5017,7 +6588,7 @@
     "productId": 20528,
     "internalName": "ry5088_akko_5075_uk_tmr_3m_8k_8k",
     "keyLayout": "Common83_mod007sv3he_uk",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5062,7 +6633,25 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 102,
+        "name": "Light Green"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5076,7 +6665,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5087_v5_he_tmr_3m_8k_8k",
     "keyLayout": "Common88_5087V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5100,7 +6689,25 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common88_5087V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common88_5087V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5114,7 +6721,7 @@
     "productId": 20528,
     "internalName": "ry5088_akko_5075_us_tmr_3m_8k_8k_ry1049es",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5159,7 +6766,25 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 102,
+        "name": "Light Green"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -5173,8 +6798,8 @@
     "productId": 6147,
     "internalName": "ry5088_fl_k2507_us_3m_8k_8k",
     "keyLayout": "Common104_K2507",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 3,
     "magnetic": true,
     "family": "gen2",
@@ -5223,7 +6848,33 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -5238,8 +6889,8 @@
     "productId": 6147,
     "internalName": "ry5088_fl_k2507_uk_3m_8k_8k",
     "keyLayout": "Common104_K2507UK",
-    "lightLayout": "K",
-    "sideLightLayout": "oa",
+    "lightLayout": "v",
+    "sideLightLayout": "Yi",
     "profiles": 3,
     "magnetic": true,
     "family": "gen2",
@@ -5288,7 +6939,8 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5302,7 +6954,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5087_v5_he_tmr_us_b_3m_8k_8k",
     "keyLayout": "Common88_5087V5HETMR",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5344,7 +6996,25 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common88_5087V5HETMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common88_5087V5HETMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5358,7 +7028,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_mod68_he_3m_8k_8k",
     "keyLayout": "Common68_ROYALAXE_K80X68",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5382,7 +7052,17 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common68_ROYALAXE_K80X68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common68_ROYALAXE_K80X68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5396,8 +7076,8 @@
     "productId": 20482,
     "internalName": "yc3123_akko_air01_3m_1k_3818",
     "keyLayout": "Common84_Air01",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -5413,7 +7093,39 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common84_Air01 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common84_Air01 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
+  },
+  {
+    "_why": "Present in the vendor catalogue until the 2026-10-15 refresh, then removed. The hardware still exists, so dropping it would take away support someone already has. Delete this entry if the vendor lists id 3819 again.",
+    "_evidence": "Entry copied verbatim from the registry generated at commit fff3dd5. Family yc500 as classified by the vendor's own loader map at that time.",
+    "id": 3819,
+    "name": "yc3121_nbd_mk905_uk_3m",
+    "displayName": "BGAM-KITTY",
+    "company": "BS-Kitty-KB",
+    "vendor": "BS-Kitty-KB",
+    "vendorId": 12625,
+    "productId": 16405,
+    "internalName": "yc3121_nbd_mk905_uk_3m",
+    "keyLayout": "Common87_BK_UK",
+    "lightLayout": "se",
+    "sideLightLayout": "",
+    "profiles": 2,
+    "magnetic": false,
+    "family": "yc500",
+    "screen": null,
+    "travel": null,
+    "switchReplaceable": false,
+    "switchTypes": [],
+    "features": {
+      "knob": [],
+      "debounce": true,
+      "sleep24": true,
+      "sleepBT": true,
+      "magneticSwitches": false,
+      "screen": false,
+      "sideLight": false
+    }
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5427,7 +7139,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_mod68_he_1m_8k_8k",
     "keyLayout": "Common68_ROYALAXE_K80X68",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5451,7 +7163,17 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common68_ROYALAXE_K80X68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common68_ROYALAXE_K80X68 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5465,7 +7187,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5087_v5_he_uk_tmr_3m_8k_8k",
     "keyLayout": "Common88_5087V5HEUK",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5507,7 +7229,25 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common88_5087V5HEUK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common88_5087V5HEUK in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5521,7 +7261,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_mod007_v5_tmr_8k_8k_v500",
     "keyLayout": "Common83_MOD007V5HE_TMR",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5572,7 +7312,25 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common83_MOD007V5HE_TMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common83_MOD007V5HE_TMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 102,
+        "name": "Light Green"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Hator's own SyncHUB tables (the hator.io web build and the desktop 3.1.27 package), not in gearhub, which is the bundle the registry is extracted from. Hator ships the same driver with its own catalogue.",
@@ -5587,7 +7345,7 @@
     "productId": 20527,
     "internalName": "ry5088_fl_k2501_3m_8k_8k",
     "keyLayout": "Common87_K2501",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 3,
     "magnetic": true,
@@ -5610,7 +7368,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -5624,7 +7383,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_fun60_ultra_tmr_3m_8k_8k",
     "keyLayout": "Common61_gk06",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5647,7 +7406,25 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 102,
+        "name": "Light Green"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5661,7 +7438,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5108_v5_he_b_3m_8k_8k",
     "keyLayout": "Common108_5108V5HE",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5685,7 +7462,21 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common108_5108V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common108_5108V5HE in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5699,7 +7490,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5087_v5_he_us_b_3m_8k_8k",
     "keyLayout": "Common88_5087V5HETMR",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5716,7 +7507,21 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common88_5087V5HETMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common88_5087V5HETMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -5730,7 +7535,7 @@
     "productId": 20528,
     "internalName": "ry5088_fun60maxc_3m_8k",
     "keyLayout": "Common61_fun60maxc",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5747,7 +7552,33 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common61_fun60maxc in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common61_fun60maxc in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Shine"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5761,7 +7592,7 @@
     "productId": 3,
     "internalName": "ry6609_akko_5075b_v5_3m_8k_8k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -5781,7 +7612,8 @@
       "magneticSwitches": false,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5795,7 +7627,7 @@
     "productId": 3,
     "internalName": "ry6609_akko_5087_v5_b_3m_8k_8k",
     "keyLayout": "Common87_5087V5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -5812,7 +7644,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common87_5087V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common87_5087V5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5826,7 +7659,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5075_v5_he_us_b_3m_8k_8k",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5846,7 +7679,21 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5860,7 +7707,7 @@
     "productId": 5,
     "internalName": "ry6602_akko_5108_v5_iso_3m_1k_1k_argb",
     "keyLayout": "Common82_5075_v5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -5881,7 +7728,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_5075_v5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_5075_v5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5895,7 +7743,7 @@
     "productId": 5,
     "internalName": "ry6602_akko_5075_v5_iso_3m_1k_1k",
     "keyLayout": "Common82_5075_v5_de",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -5912,7 +7760,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_5075_v5_de in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_5075_v5_de in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5926,7 +7775,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_5098_v5_he_3m_8k_8k",
     "keyLayout": "Common98_5098",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -5965,7 +7814,25 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common98_5098 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common98_5098 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 102,
+        "name": "Light Green"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      },
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -5979,7 +7846,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_akko_5075_v5_he_iso_3m_8k_8k",
     "keyLayout": "Common82_5075_v5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6025,7 +7892,21 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_5075_v5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_5075_v5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -6039,7 +7920,7 @@
     "productId": 5,
     "internalName": "ry6602_akko_5098_v5_3m_8k",
     "keyLayout": "Common98_5098",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -6065,7 +7946,8 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common98_5098 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common98_5098 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -6079,8 +7961,8 @@
     "productId": 5,
     "internalName": "ry6602_akko_air01_us_3m_1k_1k",
     "keyLayout": "Common84_Air01",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -6096,7 +7978,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common84_Air01 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common84_Air01 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -6110,8 +7993,8 @@
     "productId": 5,
     "internalName": "ry6602_akko_k0061_3m_1k_1k",
     "keyLayout": "Common68_K0061",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": false,
     "family": "unknown",
@@ -6131,7 +8014,8 @@
       "screen": false,
       "sideLight": true
     },
-    "_unknown": "Akko ships no picture for Common68_K0061 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common68_K0061 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -6145,7 +8029,7 @@
     "productId": 5,
     "internalName": "ry6602_akko_akko_mg108b_v2_3m_1k_1k",
     "keyLayout": "Common108_MG108BV2",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -6162,7 +8046,8 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common108_MG108BV2 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common108_MG108BV2 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": []
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -6176,7 +8061,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_0001_hf_kf106_3m_8k_8k",
     "keyLayout": "Common67_4031",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6211,7 +8096,21 @@
       "screen": true,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common67_4031 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common67_4031 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 102,
+        "name": "Light Green"
+      },
+      {
+        "code": 131,
+        "name": "Double Star Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -6225,8 +8124,8 @@
     "productId": 22,
     "internalName": "ry5088_akko_raid_75_he",
     "keyLayout": "Common82_SG9000",
-    "lightLayout": "K",
-    "sideLightLayout": "X",
+    "lightLayout": "v",
+    "sideLightLayout": "Y",
     "profiles": 4,
     "magnetic": true,
     "family": "unknown",
@@ -6258,7 +8157,17 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In Akko's own Cloud Driver tables (web.akkogear.com), not in gearhub, which is the bundle the registry is extracted from. Akko ships the same driver with its own catalogue.",
@@ -6272,7 +8181,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_akko_5075_v5_he_iso_b_1m_8k",
     "keyLayout": "Common82_5075_v5",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6318,7 +8227,21 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "Akko ships no picture for Common82_5075_v5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "Akko ships no picture for Common82_5075_v5 in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 15,
+        "name": "Kaihua Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -6332,7 +8255,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_fun87_he_1m_8k",
     "keyLayout": "Common88_akko_fun87_he",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6368,7 +8291,21 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common88_akko_fun87_he in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common88_akko_fun87_he in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 102,
+        "name": "Light Green"
+      },
+      {
+        "code": 131,
+        "name": "Double Star Switch"
+      },
+      {
+        "code": 95,
+        "name": "星芒磁轴"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -6382,7 +8319,7 @@
     "productId": 1,
     "internalName": "ry5088_akko_m1v5_tmr_iso_3m_8k_8k",
     "keyLayout": "Common82_M1_V5_ISO",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 2,
     "magnetic": true,
@@ -6403,7 +8340,41 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_ISO in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_ISO in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -6417,7 +8388,7 @@
     "productId": 64,
     "internalName": "ry5088_001_akko_m1_tmr_iso_b_3m_8k_8k_ry1033_dfn4_v400h",
     "keyLayout": "Common82_M1_V5_ISO",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 2,
     "magnetic": true,
@@ -6451,7 +8422,41 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_ISO in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_ISO in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In MonsGeek's own Driver tables (app.monsgeek.com), not in gearhub, which is the bundle the registry is extracted from. MonsGeek ships the same driver with its own catalogue.",
@@ -6465,7 +8470,7 @@
     "productId": 64,
     "internalName": "ry5088_001_akko_m1_tmr_iso_c_3m_8k_8k_ry1033_dfn4_v400h",
     "keyLayout": "Common82_M1_V5_TMR",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 2,
     "magnetic": true,
@@ -6499,7 +8504,41 @@
       "screen": false,
       "sideLight": false
     },
-    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_TMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown."
+    "_unknown": "MonsGeek ships no picture for Common82_M1_V5_TMR in the saved web build (no SVG and no ui_info chunk we could extract). The Keys page matches a picture against the board and asks the owner to confirm it, as for Unknown.",
+    "switchTypes": [
+      {
+        "code": 24,
+        "name": "Star Attraction"
+      },
+      {
+        "code": 31,
+        "name": "Lightning"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6559,7 +8598,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6574,7 +8614,7 @@
     "productId": 36883,
     "internalName": "RY6602_BEAT75_3M_1K_ARGB_KB_RY1049ES_RT001",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6615,7 +8655,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6630,7 +8700,7 @@
     "productId": 36869,
     "internalName": "RY8016_JC_RM_Nyxxx60_1M_ARGB_OPS",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6671,7 +8741,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6686,7 +8757,7 @@
     "productId": 20584,
     "internalName": "RY8016_RY_RY60Pro_1M_ARGB_OPS",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6702,7 +8773,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6717,7 +8789,7 @@
     "productId": 20584,
     "internalName": "RY8016_NBD_MK25061_V2_VK_Cyber_68_1M_ARGB_OPS",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6758,7 +8830,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6814,7 +8887,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6870,7 +8944,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6926,7 +9001,13 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 37,
+        "name": "Haimu Arctic Switch"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -6941,7 +9022,7 @@
     "productId": 36869,
     "internalName": "RY5088_HF_KF109_optical_axi_1M_ARGB_OPS",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -6957,7 +9038,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7013,7 +9095,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7069,7 +9181,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 7,
+        "name": "Mechanical Switch"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7129,7 +9271,13 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 37,
+        "name": "Haimu Arctic Switch"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7185,7 +9333,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7241,7 +9390,13 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 37,
+        "name": "Haimu Arctic Switch"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7256,7 +9411,7 @@
     "productId": 20521,
     "internalName": "ry5088_dw84pro_1m_8k",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -7297,7 +9452,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 37,
+        "name": "Haimu Arctic Switch"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7353,7 +9534,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7368,7 +9575,7 @@
     "productId": 36883,
     "internalName": "ry6602_k81_v3_3m_1k_rt001",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -7418,7 +9625,29 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7474,7 +9703,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7530,7 +9760,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7545,7 +9776,7 @@
     "productId": 36,
     "internalName": "ry6602_fl_k2612_1m_1k",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "Wg",
     "profiles": 4,
     "magnetic": true,
@@ -7586,7 +9817,13 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 107,
+        "name": "Cloud Cyan Switch"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7601,7 +9838,7 @@
     "productId": 36886,
     "internalName": "ry5088_zdm_beat75_v2_core75HE_1m_8k",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -7646,7 +9883,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7661,7 +9920,7 @@
     "productId": 36883,
     "internalName": "ry6602_jc_gk8773gw_3m_1k_1k",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -7693,7 +9952,13 @@
       "magneticSwitches": true,
       "screen": true,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 55,
+        "name": "Tian Qing Switch"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7749,7 +10014,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 136,
+        "name": "Ice Isle Switch"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7764,7 +10055,7 @@
     "productId": 36886,
     "internalName": "ry5088_zdm_beat75_v4_urx75_1m_8k",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -7809,7 +10100,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7865,7 +10182,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7921,7 +10268,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -7977,7 +10346,37 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      },
+      {
+        "code": 0,
+        "name": "Outemu"
+      },
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -8033,7 +10432,33 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      },
+      {
+        "code": 46,
+        "name": "Red Sky Axis"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -8089,7 +10514,29 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": false
-    }
+    },
+    "switchTypes": [
+      {
+        "code": 1,
+        "name": "Magnetic Jade"
+      },
+      {
+        "code": 2,
+        "name": "Magnetic Jade Pro"
+      },
+      {
+        "code": 3,
+        "name": "Magnetic Jade Gaming"
+      },
+      {
+        "code": 4,
+        "name": "Heavenly King"
+      },
+      {
+        "code": 5,
+        "name": "Magneto"
+      }
+    ]
   },
   {
     "_why": "In the qmk.top root build's tables (the vendor's own host, a single-file build for magnetic boards), not in gearhub v4, which is the bundle the registry is extracted from.",
@@ -8104,7 +10551,7 @@
     "productId": 36886,
     "internalName": "ry5088_hc_lp75811_3m_8k_1k_argb_kb_1049ew_84key",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "ED",
     "profiles": 4,
     "magnetic": true,
@@ -8145,7 +10592,8 @@
       "magneticSwitches": true,
       "screen": false,
       "sideLight": true
-    }
+    },
+    "switchTypes": []
   },
   {
     "_why": "In AIM1 Keys' own driver tables (AIM1 Keys 3.0.26, the update payload the vendor's version endpoint names for the company), not in gearhub, which is the bundle the registry is extracted from.",
@@ -8264,7 +10712,7 @@
     "productId": 301,
     "internalName": "ry5088_cherrymx82_de_8k_8k",
     "keyLayout": "Common87_GV8M",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -8301,7 +10749,7 @@
     "productId": 321,
     "internalName": "ry5088_cherry_k5_tmr_de_8k_dm",
     "keyLayout": "Common67_beat65",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
@@ -8333,7 +10781,7 @@
     "_unknown": "Common82_M1_V5_TMR matched the keymap 84 of 84 in Setup and the owner's photo shows the same 75% with a knob and a Home, PgUp, PgDn, End column. Setup found 4 profiles and switched them. Debounce 0x91 answers 1 at byte 2. The owner saw red on the edge light, so sideLight is on; the layout token copies the other yc500 edge-light boards and nothing reads it. The B in the name is the multi-mode line, so both sleep timers are on. 0xAD echoes, no display. Its white sibling 695 and the other yc300_ records were not swept and keep family unknown.",
     "id": 594,
     "keyLayout": "Common82_M1_V5_TMR",
-    "sideLightLayout": "xt",
+    "sideLightLayout": "At",
     "family": "yc500",
     "bulkKeymap": true,
     "features": {
@@ -8396,7 +10844,7 @@
     "internalName": "akko_5075b_plus_s_mac",
     "keyLayout": "Local82_Akko_5075B_Plus_S",
     "lightLayout": "",
-    "sideLightLayout": "xt",
+    "sideLightLayout": "At",
     "profiles": 4,
     "magnetic": false,
     "family": "yc500",
@@ -8423,7 +10871,7 @@
     "_unknown": "No photo. Published firmware 1768_v104 exists but led_flags.py reads no renderer out of it. Knob keeps the vendor's three actions; nothing tested them.",
     "id": 1768,
     "keyLayout": "Common81_DK82US",
-    "sideLightLayout": "xt",
+    "sideLightLayout": "At",
     "profiles": 4,
     "family": "yc500",
     "features": {
@@ -8454,7 +10902,7 @@
     "internalName": "luminkey60_pro",
     "keyLayout": "Local61_Luminkey60_Pro",
     "lightLayout": "",
-    "sideLightLayout": "xt",
+    "sideLightLayout": "At",
     "profiles": 4,
     "magnetic": false,
     "family": "yc500",
@@ -8481,7 +10929,7 @@
     "productId": 16405,
     "internalName": "akko_mu01_uk",
     "keyLayout": "Common69_MU01UK",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
@@ -8509,7 +10957,7 @@
     "productId": 16405,
     "internalName": "akko_5098b_de",
     "keyLayout": "Unknown",
-    "lightLayout": "K",
+    "lightLayout": "v",
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": false,
