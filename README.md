@@ -51,7 +51,7 @@ By brand, with what each board has:
 
 **Beta, so back up first.**
 
-1173 of 1409 accept changes, 232 more once the board itself has said which
+1174 of 1409 accept changes, 231 more once the board itself has said which
 command set it speaks, 4 are read-only. 368 are drawn out of the box
 and 833 more after a one-time check against your board; the rest show a
 slot grid.

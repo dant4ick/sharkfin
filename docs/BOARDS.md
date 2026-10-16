@@ -13,7 +13,7 @@ blank is a plain grid of key slots. All three work the same.
 | | count |
 |---|---:|
 | total | 1409 |
-| writable | 1173 |
+| writable | 1174 |
 | drawn | 368 |
 | drawn after confirmation | 833 |
 
@@ -333,7 +333,7 @@ blank is a plain grid of key slots. All three work the same.
 | cherry K5 | 2626 | 046a:0141 | gen2 | yes |  |
 | cherry K5 | 3107 | 046a:0141 | unknown |  | auto |
 | cherry MX8.2 | 2494 | 046a:012d | gen2 | yes |  |
-| cherry MX8.2 TMR DE | 3098 | 046a:012d | unknown |  | yes |
+| cherry MX8.2 TMR DE | 3098 | 046a:012d | gen2 | yes | yes |
 | COLORFUL QY98 Ultra | 3257 | 3151:5030 | gen2 | yes | auto |
 | ColorReco CR-F81 | 1513 | 3151:4015 | unknown |  |  |
 | ColorReco CR-F81 | 3825 | 3151:5056 | gen2 | yes | yes |

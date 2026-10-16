@@ -10765,8 +10765,9 @@
     }
   },
   {
-    "_why": "In Cherry's own MagCrate tables (MagCrate 3.2.14), not in gearhub, which is the bundle the registry is extracted from. Cherry ships the same driver with its own catalogue.",
-    "_evidence": "Transcribed by tools/extract_vendor_data.py from the MagCrate 3.2.14 payload saved 2026-09-15 under ~/vendor-builds/installers-20260915/cherry. Its loader map is not the shape the extractor classifies, so the family is unknown and the app settles it from the board at connect. Light layout K matches the gearhub bundle's K by content.",
+    "_why": "In Cherry's own MagCrate tables (MagCrate 3.2.14), not in gearhub, which is the bundle the registry is extracted from. Cherry ships the same driver with its own catalogue. Reported in issue #82 with a read sweep; the family was unknown until the owner's board answered.",
+    "_evidence": "Fields from the MagCrate 3.2.14 payload saved 2026-09-15 under ~/vendor-builds/installers-20260915/cherry. Light layout matches the gearhub bundle's by content. Read sweep from the owner's board (0.9.7, fff3dd5, browser). identify 0x8F returns 0x0c1a = 3098 in the gen2 shape with version 3.20 at bytes 7..8, the version of the published v320 image. GET_KEYMATRIX 0x8A returns a gen2 keymap reading Esc, grave, Tab, CapsLock, LShift, LCtrl down column 0; the yc500 read 0x89 returns no keymap, only the opcode and 01 01 at bytes 3..4, and 0x92 and 0x97 answer only the opcode; the gen2 sleep read 0x91 answers four u16 (300, 300, 1680, 1680) at bytes 8..15. That fixes the family as gen2, the ry5088 line of the MX8.2 (2494). The keymap is the v320 image's table in keymap-evidence.json, which Common87_GV8M's slots already come from, except slots 90 and 96, where the board carries consumer Vol- and Vol+ and the image has Scroll Lock and Pause; whether that is the owner's remap or newer firmware is not settled.",
+    "_unknown": "No setup report, so no write has been round-tripped on this board. The board is DE ISO and Common87_GV8M is drawn ANSI: NonUsBackslash at 10 and NonUsHash at 75 have no key in the picture.",
     "id": 3098,
     "name": "ry5088_cherrymx82_de_8k_8k",
     "displayName": "MX8.2 TMR DE",
@@ -10780,7 +10781,7 @@
     "sideLightLayout": "",
     "profiles": 4,
     "magnetic": true,
-    "family": "unknown",
+    "family": "gen2",
     "screen": null,
     "travel": {
       "travel": {
