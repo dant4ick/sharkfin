@@ -783,6 +783,10 @@ mod tests {
                 "Local105_Siukie_ACH105W",
                 include_str!("../../src/lib/layouts/vendor/Local105_Siukie_ACH105W.json"),
             ),
+            (
+                "Local80_Epomaker_TH80",
+                include_str!("../../src/lib/layouts/vendor/Local80_Epomaker_TH80.json"),
+            ),
         ];
         for (name, text) in LOCAL {
             let v: serde_json::Value = serde_json::from_str(text).expect("parses");
