@@ -1,5 +1,21 @@
 Beta. Back up from the Device tab before you rely on it.
 
+## What changed in 0.10.0
+
+**Eighteen boards from the vendor's latest catalogue**, among them the
+Epomaker HE68 Lite, Attack Shark X82HE and X65Ultra, HOWL 75 V2, YUNZII
+C21 and Aurora 80. 1409 boards in all.
+
+**Two more boards from reports.** Epomaker TH80 and the UK RT100 Wired,
+from issues #79, #83, #77 and #78. Both draw out of the box.
+
+**The Cherry MX8.2 TMR DE is writable without asking first.** Its own
+answers settled which command set it speaks. Issue #82.
+
+**Live travel no longer blanks the Switches tab.** The page crashed on the
+first key press with live travel on. Seen on the Akko TAC75 HE and the
+Cherry MX8.2 in issues #81 and #82.
+
 ## What changed in 0.9.7
 
 **Two more boards.** Akko MOD68 HE and Siukie ACH105W, from reports in
