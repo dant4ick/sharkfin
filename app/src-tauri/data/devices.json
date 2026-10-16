@@ -3260,6 +3260,35 @@
     "screen": null
   },
   {
+    "id": 1265,
+    "name": "epomaker_rt100_wired_1265",
+    "displayName": "RT100 Wired",
+    "company": "EPOMAKER",
+    "vendor": "EPOMAKER",
+    "vendorId": 12625,
+    "productId": 16400,
+    "internalName": "epomaker_rt100_wired_1265",
+    "keyLayout": "Local98_Epomaker_RT100_Wired",
+    "lightLayout": "",
+    "sideLightLayout": "",
+    "profiles": 4,
+    "magnetic": false,
+    "family": "yc500",
+    "features": {
+      "knob": [
+        "AudioVolumeDown",
+        "MediaPlayPause",
+        "AudioVolumeUp"
+      ],
+      "debounce": true,
+      "sleep24": false,
+      "sleepBT": false,
+      "magneticSwitches": false,
+      "screen": true,
+      "sideLight": false
+    }
+  },
+  {
     "id": 1275,
     "name": "yc500_kf850_screen_soc",
     "displayName": "DynaTab 75X",

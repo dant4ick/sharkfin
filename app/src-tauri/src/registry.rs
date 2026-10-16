@@ -787,6 +787,10 @@ mod tests {
                 "Local80_Epomaker_TH80",
                 include_str!("../../src/lib/layouts/vendor/Local80_Epomaker_TH80.json"),
             ),
+            (
+                "Local98_Epomaker_RT100_Wired",
+                include_str!("../../src/lib/layouts/vendor/Local98_Epomaker_RT100_Wired.json"),
+            ),
         ];
         for (name, text) in LOCAL {
             let v: serde_json::Value = serde_json::from_str(text).expect("parses");
