@@ -630,6 +630,9 @@ export default function SwitchesPage({ device }: { device: ConnectedDevice | nul
             .filter(([, v]) => v > 0),
         )
       : undefined;
+  const keysBySlot = new Map(
+    layout.keys.filter((k) => k.matrixIndex !== null).map((k) => [k.matrixIndex!, k]),
+  );
   // Bottom-out comparison: once enough keys have been pressed to the bottom,
   // a key whose deepest point is short of the middle one by a tenth is
   // called out. Sensor drift and a badly seated switch both show up here.
@@ -650,9 +653,6 @@ export default function SwitchesPage({ device }: { device: ConnectedDevice | nul
   const peakSet = snap(ranges.travel, peakMm);
   const liftSet = snap(ranges.fireLift, maxLiftMm);
   const bySlot = new Map(settings.keys.map((k) => [k.slot, k]));
-  const keysBySlot = new Map(
-    layout.keys.filter((k) => k.matrixIndex !== null).map((k) => [k.matrixIndex!, k]),
-  );
   const nameOf = (slot: number) => {
     const k = keysBySlot.get(slot);
     return k ? (k.text ?? k.code) : t("slot {n}", { n: slot });
