@@ -1026,7 +1026,7 @@ Stay in app mode. Bit7 on the command reports, no checksum on the data.
 
 | | |
 |---|---|
-| Sibling images | Same USB PID does not mean the same PCB. A wrong image that fails to run can leave the board unable to answer `0x7F`, so boot is unreachable without SWD. |
+| Sibling images | Same USB PID does not mean the same PCB. A wrong image that fails to run can leave the board unable to answer `0x7F`. No recovery without a running app or USB bootloader has been verified; SWD access and the ROM UART protocol are unverified. |
 | Boot PID table | The vendor tables are incomplete. A K86 (1168) boots to `3151:4016`, which is in neither. A tool that only looks for the listed PIDs will report no board while one sits in the bootloader. |
 | No USB dump | The dispatcher has no read. Flash contents never come out over USB. |
 | Bootloader is kept | The host never sends the file prefix above. A board that can still enter boot can be written again. The 1724 write base is `0x01010200`, which is not either skip. |

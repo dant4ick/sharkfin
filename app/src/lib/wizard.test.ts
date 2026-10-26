@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 import { describe, expect, it } from "vitest";
 import type { BoardLayout, LayoutKey } from "./layout-loader";
-import type { ConnectedDevice } from "./backend";
+import type { ConnectedDevice, LedParam } from "./backend";
 import {
   checkReport,
   codeForUsage,
@@ -14,6 +14,7 @@ import {
   hasReport,
   plainUsage,
   pressTargets,
+  restoredColourMatches,
   sameTravel,
   switchesLookReal,
   travelFloor,
@@ -21,6 +22,7 @@ import {
   remapChoices,
   sliceEntries,
   trueSwap,
+  type ColourState,
 } from "./wizard";
 
 const key = (
@@ -258,6 +260,12 @@ describe("pending writes", () => {
     expect(
       pendingWrite({
         ...s,
+        colour: { ...colour, answer: "solid", restored: true, restoredReadBack: false },
+      }),
+    ).toBe("the backlight restore has not read back");
+    expect(
+      pendingWrite({
+        ...s,
         colour: { ...colour, answer: "solid", restored: true, sideWritten: true, sideRestored: null },
       }),
     ).toBe("the edge light has not been put back");
@@ -286,6 +294,50 @@ describe("pending writes", () => {
     expect(hasReport({ ...freshState(), step: "board" })).toBe(true);
     expect(setupDone({ ...freshState(), step: "board" })).toBe(false);
     expect(setupDone({ ...freshState(), step: "done" })).toBe(true);
+  });
+});
+
+describe("lighting restore readback", () => {
+  const original: LedParam = {
+    mode: 12, speed: 4, brightness: 4, option: 0, dazzle: true, r: 180, g: 180, b: 180,
+  };
+  const colour: ColourState = {
+    sw: false,
+    originals: { plain: original, swapped: { ...original, dazzle: false } },
+    written: true,
+    readBack: true,
+    answer: "solid",
+    restored: true,
+    restoredReadBack: false,
+    sideOriginal: null,
+    sideWritten: false,
+    edge: null,
+    sideRestored: null,
+  };
+
+  it("keeps a failed restore pending until the original reads back", () => {
+    const state = { ...freshState(), step: "colours" as const, colour };
+    expect(pendingWrite(state)).toBe("the backlight restore has not read back");
+    const wrong = { ...original, mode: 1 };
+    expect(restoredColourMatches(colour, wrong)).toBe(false);
+    expect(pendingWrite({
+      ...state, colour: { ...colour, restoredReadBack: restoredColourMatches(colour, wrong) },
+    })).toBe("the backlight restore has not read back");
+    expect(pendingWrite({
+      ...state, colour: { ...colour, restoredReadBack: restoredColourMatches(colour, original) },
+    })).toBeNull();
+  });
+
+  it("checks every lighting field under the owner's flag reading", () => {
+    expect(restoredColourMatches(colour, original)).toBe(true);
+    for (const field of ["mode", "speed", "brightness", "option", "r", "g", "b"] as const) {
+      expect(restoredColourMatches(colour, { ...original, [field]: original[field] + 1 })).toBe(false);
+    }
+    expect(restoredColourMatches(colour, { ...original, dazzle: false })).toBe(false);
+    const cycling: ColourState = { ...colour, answer: "cycling" };
+    expect(restoredColourMatches(cycling, { ...original, dazzle: false })).toBe(true);
+    expect(restoredColourMatches(cycling, original)).toBe(false);
+    expect(restoredColourMatches({ ...colour, originals: null }, original)).toBe(false);
   });
 });
 

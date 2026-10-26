@@ -48,6 +48,7 @@ import {
   plainUsage,
   pressTargets,
   remapChoices,
+  restoredColourMatches,
   sameTravel,
   saveWizard,
   sliceEntries,
@@ -123,6 +124,9 @@ export default function CheckPage({
     }
     if (lastId.current === id) return;
     const loaded = loadWizard(id) ?? freshState();
+    // A failed restore still owns the saved original, even if an older
+    // version let the run advance past Colours.
+    if (loaded.colour?.written && loaded.colour.restoredReadBack === false) loaded.step = "colours";
     if (unplugged.current && RUNNING.includes(loaded.step)) {
       loaded.replugs += 1;
       setBack(true);
@@ -848,9 +852,7 @@ function ColoursStep({
       let restoredReadBack: boolean | null = null;
       try {
         const got = await getLedParam();
-        restoredReadBack = (["mode", "speed", "brightness", "option", "dazzle", "r", "g", "b"] as const).every(
-          (k) => got[k] === want[k],
-        );
+        restoredReadBack = restoredColourMatches(c, got);
       } catch {
         restoredReadBack = false;
       }
@@ -860,6 +862,18 @@ function ColoursStep({
       throw e;
     }
   };
+
+  const recheckRestore = () =>
+    run(async () => {
+      if (!colour) return;
+      const truth =
+        colour.answer === "solid" || colour.answer === "cycling"
+          ? trueSwap(colour.sw, colour.answer)
+          : colour.sw;
+      await setLedFlagsSwapped(truth);
+      const got = await getLedParam();
+      setColour({ ...colour, restoredReadBack: restoredColourMatches(colour, got) });
+    });
 
   const answer = (a: "solid" | "cycling" | "neither") =>
     run(async () => {
@@ -986,6 +1000,16 @@ function ColoursStep({
             </Button>
           )}
         </>
+      ) : colour.restoredReadBack === false ? (
+        <>
+          <p>{t("Your lighting went back out but did not read back the same.")}</p>
+          <p className="text-muted-foreground">
+            {t("Setup keeps the original lighting and stops here. Checking again only reads the keyboard.")}
+          </p>
+          <Button size="sm" onClick={recheckRestore} disabled={busy}>
+            {t("Check the lighting again")}
+          </Button>
+        </>
       ) : (
         <>
           <p className="text-muted-foreground">
@@ -994,9 +1018,7 @@ function ColoursStep({
               : colour.answer === "solid"
                 ? t("Your keyboard reads the rainbow flag as sharkfin expected.")
                 : t("No change was seen.")}{" "}
-            {colour.restoredReadBack === false
-              ? t("Your lighting went back out but did not read back the same.")
-              : t("Your lighting is back.")}
+            {t("Your lighting is back.")}
           </p>
           {askEdge && (
             <>

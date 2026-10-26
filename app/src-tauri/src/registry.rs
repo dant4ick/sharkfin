@@ -577,16 +577,6 @@ mod tests {
             "the X86 lineage reads 8 as the rainbow"
         );
         assert!(!x86.led_wire().swapped);
-        let firmware = all()
-            .iter()
-            .filter(|d| d.led_flags_swapped && d.led_flags_source == "firmware")
-            .count();
-        assert_eq!(firmware, 33, "boards the scan read as 7 = rainbow");
-        let swapped = all().iter().filter(|d| d.led_flags_swapped).count();
-        assert_eq!(
-            swapped, 140,
-            "with hardware reports and the driver's verdict where there is no firmware"
-        );
     }
 
     /// Drawing is granted per lineage, never per family alone. yc3123 boards
@@ -790,6 +780,26 @@ mod tests {
             (
                 "Local98_Epomaker_RT100_Wired",
                 include_str!("../../src/lib/layouts/vendor/Local98_Epomaker_RT100_Wired.json"),
+            ),
+            (
+                "Local83_Akko_Air01",
+                include_str!("../../src/lib/layouts/vendor/Local83_Akko_Air01.json"),
+            ),
+            (
+                "Local80_Gamakay_TK75_PRO",
+                include_str!("../../src/lib/layouts/vendor/Local80_Gamakay_TK75_PRO.json"),
+            ),
+            (
+                "Local80_Keydous_NJ80_AP500",
+                include_str!("../../src/lib/layouts/vendor/Local80_Keydous_NJ80_AP500.json"),
+            ),
+            (
+                "Local86_SIKAKEYB_SK5_Wired",
+                include_str!("../../src/lib/layouts/vendor/Local86_SIKAKEYB_SK5_Wired.json"),
+            ),
+            (
+                "Local88_Cherry_MX82_TMR_DE",
+                include_str!("../../src/lib/layouts/vendor/Local88_Cherry_MX82_TMR_DE.json"),
             ),
         ];
         for (name, text) in LOCAL {

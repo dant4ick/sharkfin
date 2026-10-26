@@ -294,6 +294,7 @@ export function pendingWrite(s: WizardState): string | null {
   const c = s.colour;
   if (c?.written && c.answer === null) return "the backlight is still red";
   if (c?.written && c.answer !== null && c.restored !== true) return "the backlight has not been put back";
+  if (c?.written && c.restoredReadBack === false) return "the backlight restore has not read back";
   if (c?.sideWritten && c.sideRestored !== true) return "the edge light has not been put back";
   const p = s.profiles;
   if (p && p !== "one" && p.away) return "the keyboard is on another profile";
@@ -344,6 +345,17 @@ export function rainbowNibble(sw: boolean, answer: "solid" | "cycling"): 7 | 8 {
 /** The reading the board turned out to have. */
 export const trueSwap = (sw: boolean, answer: "solid" | "cycling") =>
   answer === "solid" ? sw : !sw;
+
+/** Compare the restore with the original under the owner's flag reading. */
+export function restoredColourMatches(c: ColourState, got: LedParam): boolean {
+  if (!c.originals) return false;
+  const swapped =
+    c.answer === "solid" || c.answer === "cycling" ? trueSwap(c.sw, c.answer) : c.sw;
+  const want = swapped ? c.originals.swapped : c.originals.plain;
+  return (["mode", "speed", "brightness", "option", "dazzle", "r", "g", "b"] as const).every(
+    (k) => got[k] === want[k],
+  );
+}
 
 /** The key to feel the switch test on: Space when it is a plain key, else
  *  the first plain-kind key the browser can name. */

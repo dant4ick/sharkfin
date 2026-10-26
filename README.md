@@ -51,8 +51,8 @@ By brand, with what each board has:
 
 **Beta, so back up first.**
 
-1174 of 1409 accept changes, 231 more once the board itself has said which
-command set it speaks, 4 are read-only. 368 are drawn out of the box
+1180 of 1412 accept changes, 228 more once the board itself has said which
+command set it speaks, 4 are read-only. 372 are drawn out of the box
 and 833 more after a one-time check against your board; the rest show a
 slot grid.
 
@@ -80,6 +80,10 @@ A board that is not in the list still works. sharkfin reads which command
 set it speaks off the board's own answers, says so, and asks before it
 writes anything. Send a report from the Contribute tab and it gets a real
 entry.
+
+If Setup cannot confirm that your original lighting was restored, it keeps
+the saved lighting and stops before further tests. **Check the lighting
+again** only reads the keyboard; Start over stays disabled until it matches.
 
 If your board shows the grid, or the picture is wrong, draw it on the
 Keys page: start from a preset or the closest stored picture, and each key
