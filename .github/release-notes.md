@@ -1,5 +1,11 @@
 Beta. Back up from the Device tab before you rely on it.
 
+## What changed in 0.10.1
+
+- Add recognition or confirmed pictures for Akko Air01, Gamakay TK75-PRO, VGN A75, ALUX68 PLUS, Keydous NJ80 AP500, SIKAKEYB SK5 wired and Cherry MX8.2 TMR DE. Ambiguous keys remain unassigned. (`55fb371`)
+- Correct the Akko Air01 rainbow setting. (`55fb371`)
+- Keep the original lighting and stop further Setup tests when restoration does not read back; checking again only reads the keyboard. (`55fb371`)
+
 ## What changed in 0.10.0
 
 **Eighteen boards from the vendor's latest catalogue**, among them the
